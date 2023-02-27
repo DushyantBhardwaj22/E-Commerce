@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Play Station 4",
+        "id": "sticker_logo",
+        "description": "The PlayStation 4 is a home video game console developed by Sony!",
+        "price": 450.00,
+        "image": "/images/PS4.jpg",
+        "Rating":""
+    },
+     {
+        "title": "Play Station 5",
+        "id": "sticker_logo_pack",
+        "description": "The PlayStation 5 is a home video game console developed by Sony",
+        "price": 520.00,
+        "image": "/images/PS5.jpg"
+        
+
+    },
+    {
+        "title": "Apex Legend",
+        "id": "Apex_logo_pack",
+        "description": "An online multiplayer battle royale game",
+        "price": 10.00,
+        "image": "/images/Apex.jpg",
+        "Rating":""
+    },
+    {
+        "title": "Play Station 3",
+        "id": "Play_Station_3_logo_pack",
+        "description": "The PlayStation 3 is a home video game console developed by Sony",
+        "price": 200.00,
+        "image": "/images/ps3.jpg",
+        "Rating":""
+    },
+    {
+        "title": "PUBG",
+        "id": "Pubg_logo_pack",
+        "description": "An online multiplayer battle royale game developed and published by PUBG",
+        "price": 10.00,
+        "image": "/images/pubg.jpg",
+        "Rating":""
+    },
+    {
+        "title": "Call of Duty",
+        "id": "call_of_duty_logo_pack",
+        "description": "Call of Duty Black ops 4",
+        "price": 12.00,
+        "image": "/images/cod.jpg",
+        "Rating":""
+    },
+    {
+        "title": "Fifa 18",
+        "id": "Fifa_18_logo_pack",
+        "description": "A sports game that simulates association football..",
+        "price": 10.00,
+        "image": "/images/fifa18.jpg",
+        "Rating":""
+    }
+]
