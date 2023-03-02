@@ -3,6 +3,10 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Products from './Products.json';
+import Prod from './prod'
+import ProductsPage from "./Productspage"
+import  DatoCMSPlugin  from "./datoCmo"
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -89,7 +93,20 @@ export default function Home() {
       </main>
       <footer className={styles.footer}>
       <script async src="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.js" />
+
       <div hidden id="snipcart" data-api-key="ZDhkNGFlMTctZmRiZS00YmYyLWJiOWEtOTQ0ZWVhYThkNjQ1NjM4MTMxMDI4Nzg5MzAyNjM4" />
+      <h1>More Details:</h1>
+      <div>
+      <a href="https://www.playstation.com/en-in/ps4/"><u>Click on here</u></a>
+      </div>
+      <h1>Reviews:</h1>
+        <div>
+          1.Exellent
+          2.Good
+          3.Just Perfect 
+          4.Not Worth it
+        </div>
+      
         <a
           href="https://www.amazon.in/s?k=-amazon&hvadid=72499124504037&hvbmt=be&hvdev=c&hvqmt=e&tag=msndeskstdin-21&ref=pd_sl_5fksc5jb1x_e"
           target="_blank"
