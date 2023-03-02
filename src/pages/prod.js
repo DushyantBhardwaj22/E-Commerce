@@ -1,4 +1,6 @@
-import { datoCMSClient } from "./datocms";
+import { datoCMSClient } from "./datoCms";
+
+import ProductsPage from "./Productspage.js"
 
 export async function getStaticPaths() {
   const response = await datoCMSClient.items.all({

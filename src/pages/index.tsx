@@ -3,9 +3,10 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Products from './Products.json';
-import Prod from './prod'
-import ProductsPage from "./Productspage"
-import  DatoCMSPlugin  from "./datoCmo"
+// import Prod from './prod'
+// import ProductsPage from "./Productspage"
+// import { DatoCMSPlugin } from "datocms-client";
+// import  datoCMSClient  from "./datoCms"
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -97,7 +98,7 @@ export default function Home() {
       <div hidden id="snipcart" data-api-key="ZDhkNGFlMTctZmRiZS00YmYyLWJiOWEtOTQ0ZWVhYThkNjQ1NjM4MTMxMDI4Nzg5MzAyNjM4" />
       <h1>More Details:</h1>
       <div>
-      <a href="https://www.playstation.com/en-in/ps4/"><u>Click on here</u></a>
+      <a href="https://www.playstation.com/en-in/ps4/"><u>Click here</u></a>
       </div>
       <h1>Reviews:</h1>
         <div>
